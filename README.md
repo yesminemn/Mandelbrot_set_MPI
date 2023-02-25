@@ -1,0 +1,3 @@
+Parallelized the computation by dividing the workload among multiple processes running on different nodes. Used a master-slave architecture, where the master process distributed tasks to the slave processes and collected the results.
+
+Used OpenMPI as the MPI implementation. The system had three nodes, with two cores each, running Ubuntu 20.04. set up the communication by configuring ssh and nfs server.
